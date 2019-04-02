@@ -61,10 +61,13 @@ transform: translate(-50%,-50%);
 	color: red;
 }
 
-@media only screen and (max-width: 500px) {
- 
-header{
-	background-color: lightpink;
-}
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
 
+header{
+	background-color: grey;
+}
 }
