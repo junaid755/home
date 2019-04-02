@@ -68,6 +68,6 @@ transform: translate(-50%,-50%);
   and (orientation: portrait) {
 
 header{
-	background-color: grey;
+	background-color: darkgrey;
 }
 }
