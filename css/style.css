@@ -50,6 +50,7 @@ transform: translate(-50%,-50%);
 
 }
 .title h1{
+	width: 100%;
 	color: white;
 	font-size: 55px;
 	font-family: 'Shadows Into Light';
@@ -59,5 +60,11 @@ transform: translate(-50%,-50%);
 .about a:hover{
 	color: red;
 }
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 30px;
+
+@media only screen and (max-width: 500px) {
+ 
+header{
+	background-color: lightpink;
+}
+
+}
