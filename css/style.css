@@ -15,9 +15,10 @@ ul{
 	float: right;
 
 }
- ul li{
+ul li
+{
+	padding:10px 10px ;
 	display: inline-block;
-
 }
 ul li a{
 	text-decoration: none;
@@ -65,5 +66,12 @@ transform: translate(-50%,-50%);
 
 header{
 	background-color: darkgrey;
+}
+}
+
+@media only screen and (orientation:portrait) {
+
+header{
+	background-color: darkorange;
 }
 }
