@@ -61,11 +61,7 @@ transform: translate(-50%,-50%);
 	color: red;
 }
 
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) 
-  and (orientation: portrait) {
+@media only screen and (max-width: 720px) {
 
 header{
 	background-color: darkgrey;
