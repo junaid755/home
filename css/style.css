@@ -5,9 +5,10 @@
 }
 header{
 	background-color: #4CAF50;
+	background-image:url(../img/l.png);
 	height: 100vh;
 	background-size: cover;
-	background-position: center;
+	background-position:left ;
 }
 ul{
 	margin-top: 19px;
@@ -77,11 +78,14 @@ header{
 @media only screen and (orientation:portrait) {
 
 header{
-	background-color: darkorange;
+	background-image:url(../img/p.png);
+	background-color: #f96563;
+
 	}
 
 	.title h1{
 		font-size: 10vw;
 	}
+
 	
 }
